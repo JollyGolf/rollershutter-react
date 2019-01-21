@@ -1,0 +1,18 @@
+@font-face {
+  font-family: MontExtraLight;
+  src: url(MontExtraLight.ttf);
+}
+
+@font-face {
+  font-family: LearningCurve;
+  src: url(LearningCurve.otf);
+}
+@font-face {
+  font-family: ProximaNovaMedium;
+  src: url(ProximaNovaSemibold.ttf);
+}
+
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url(ProximaNovaThin.ttf);
+}
