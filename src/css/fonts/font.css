@@ -16,3 +16,13 @@
   font-family: ProximaNovaLight;
   src: url(ProximaNovaThin.ttf);
 }
+
+@font-face {
+  font-family: MontExtraHeavy;
+  src: url(MontExtraHeavy.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(SourceSansPro-Regular.ttf);
+}

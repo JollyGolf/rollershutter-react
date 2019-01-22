@@ -2,11 +2,42 @@
 
 html {  }
 
+body {
+  background-color: #353535;
+  color: white;
+  font-family: SourceSansPro-Regular;
+}
+
+.Information {
+  font-family: ProximaNovaMedium;
+  height: 40px;
+}
+
 
 
 .Field {
-	height: 300px;
+  height: 300px;
 }
 hr {
-	margin: 0px;
+  margin: 0px;
 }
+
+/* Contacts - element */
+
+.Contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  color: #353535;
+  font-size: 16pt;
+  height: 40px;
+  width: 100%;
+}
+
+.icon-mark-red { color: red; }
+.icon-phone-red { color: red; }
+.icon-phone-blue { color: #00B2FF; }
+.icon-mail-green { color: #4CBB17; }
