@@ -4,7 +4,7 @@ class Title extends Component {
   render() {
     return (
       <div className="Title">
-        TITLE
+        РУЛОННЫЕ ШТОРЫ
       </div>
     );
   }

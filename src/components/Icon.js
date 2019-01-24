@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-
+import icon from '../image/icon-yellow.png';
 class Icon extends Component {
   render() {
+  	const { size } = this.props;
     return (
-      <div className="Icon">
-        ICON
-      </div>
+      <img className={`Icon-${size}`} src={icon} alt="LOGO"/>
     );
   }
 }

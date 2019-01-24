@@ -13,16 +13,71 @@ body {
   height: 40px;
 }
 
-
+.Page {
+  width: 70%;
+  margin: 0 auto;
+}
 
 .Field {
   height: 300px;
 }
+
 hr {
   margin: 0px;
 }
 
-/* Contacts - element */
+/* [start] Menu Bar - element */
+.menu-bar {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.menu-bar__font {
+  
+}
+
+.icon-and-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Title {
+  font-family: MontExtraHeavy;
+  font-size: 20pt;
+}
+
+.list-of-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-of-items__font {
+  font-family: ProximaNovaMedium;
+}
+
+.item-of-list {
+  font-size: 17pt;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.item-icon {
+  color: #d1a33d;
+  font-size: 10pt;
+}
+
+/* [end] Menu Bar - element */ 
+/* [start] Contacts - element */
 
 .Contacts {
   display: flex;
@@ -31,13 +86,27 @@ hr {
   align-items: center;
   position: fixed;
   background-color: white;
+  font-family: ProximaNovaMedium;
   color: #353535;
   font-size: 16pt;
   height: 40px;
   width: 100%;
 }
 
+.imitate-Contacts {
+  height: 40px;
+}
+
 .icon-mark-red { color: red; }
 .icon-phone-red { color: red; }
 .icon-phone-blue { color: #00B2FF; }
 .icon-mail-green { color: #4CBB17; }
+
+/* [end] Contacts - element */
+/* [start] Icon - element */
+
+.Icon-s {
+  width: 80px;
+}
+
+/* [end] Icon - element */
