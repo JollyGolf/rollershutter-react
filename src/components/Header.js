@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Icon from './Icon.js';
 import Title from './Title.js';
+import MenuBar from './MenuBar.js';
 
 class Header extends Component {
   render() {
@@ -13,15 +14,7 @@ class Header extends Component {
               &nbsp;&nbsp;
             <Title />
           </div>
-          <div className="list-of-items list-of-items__font">
-            <div className="item-of-list">Главная</div>
-            <i className="fas fa-circle item-of-list item-icon"></i>
-            <div className="item-of-list">Каталог</div>
-            <i className="fas fa-circle item-of-list item-icon"></i>
-            <div className="item-of-list">Наши работы</div>
-            <i className="fas fa-circle item-of-list item-icon"></i>
-            <div className="item-of-list">Про нас</div>
-          </div>
+          <MenuBar />
         </div>
       </div>
     );

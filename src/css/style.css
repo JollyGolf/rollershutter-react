@@ -47,6 +47,7 @@ hr {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
 }
 
 .Title {
@@ -69,11 +70,39 @@ hr {
   font-size: 17pt;
   margin-left: 5px;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .item-icon {
   color: #d1a33d;
   font-size: 10pt;
+  cursor: default;
+}
+
+.items-of-catalog {
+  margin-left: -50px;
+  position: absolute;
+  background-color: #353535;
+  padding: 5px;
+  transition: 0.5s;
+  border-left: 2px solid #d1a33d;
+  border-right: 2px solid #d1a33d;
+  border-bottom: 2px solid #d1a33d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+.item-of-catalog {
+  padding: 5px;
+}
+
+.item-of-catalog:hover {
+  background-color: white;
+  color: #353535;
+  border-radius: 10px;
 }
 
 /* [end] Menu Bar - element */ 
