@@ -84,7 +84,7 @@ hr {
   position: absolute;
   background-color: #353535;
   padding: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
   border-left: 2px solid #d1a33d;
   border-right: 2px solid #d1a33d;
   border-bottom: 2px solid #d1a33d;
@@ -97,6 +97,7 @@ hr {
 
 .item-of-catalog {
   padding: 5px;
+  transition: 0.3s;
 }
 
 .item-of-catalog:hover {
