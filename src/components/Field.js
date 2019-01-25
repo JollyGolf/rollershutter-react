@@ -1,34 +1,22 @@
 import React, { Component } from 'react';
+import MainField from './Fields/mainField.js';
+import CategoryField from './Fields/categoryField.js';
+import ExampleField from './Fields/exampleField.js';
+import DescriptionField from './Fields/descriptionField.js';
 
 class Field extends Component {
   render() {
   	if(this.props.type === "mainType") {
-  	  return (
-        <div className="Field">
-          {this.props.type}, {this.props.content}
-        </div>
-      );
+  	  return <MainField type={this.props.type} content={this.props.content} />
   	}
   	else if(this.props.type === "categoryType") {
-  	  return (
-        <div className="Field">
-          {this.props.type}, {this.props.content}
-        </div>
-      );
+  	  return <CategoryField type={this.props.type} content={this.props.content} />
   	}
   	else if(this.props.type === "exampleType") {
-  	  return (
-        <div className="Field">
-          {this.props.type}, {this.props.content}
-        </div>
-      );
+  	  return <ExampleField type={this.props.type} content={this.props.content} />
   	}
   	else if(this.props.type === "descriptionType") {
-  	  return (
-        <div className="Field">
-          {this.props.type}, {this.props.content}
-        </div>
-      );
+  	  return <DescriptionField type={this.props.type} content={this.props.content} />
     }
   }
 }

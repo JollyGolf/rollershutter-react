@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Icon from './Icon.js';
 import Title from './Title.js';
-import MenuBar from './MenuBar.js';
+import MenuBar from './Menu/MenuBar.js';
 
 class Header extends Component {
   render() {

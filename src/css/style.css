@@ -1,7 +1,7 @@
 @import 'fonts/font.css';
 
 
-/* [start] General Attributes //For Adaptive Design// */
+/* [start] General Attributes */
 
 html {  }
 
@@ -21,16 +21,12 @@ body {
   margin: 0 auto;
 }
 
-.Field {
-  height: 300px;
-}
-
 hr {
   margin: 0px;
 }
 
-/* [end] General Attributes //For Adaptive Design// */
-/* [start] Menu Bar - element //For Adaptive Design// */
+/* [end] General Attributes */
+/* [start] Menu Bar - element */
 
 .menu-bar {
   padding: 20px;
@@ -117,8 +113,8 @@ hr {
   color: white;
 }
 
-/* [end] Menu Bar - element //For Adaptive Design// */ 
-/* [start] Contacts - element //For Adaptive Design// */
+/* [end] Menu Bar - element */ 
+/* [start] Contacts - element */
 
 .Contacts {
   display: flex;
@@ -143,11 +139,26 @@ hr {
 .icon-phone-blue { color: #00B2FF; }
 .icon-mail-green { color: #4CBB17; }
 
-/* [end] Contacts - element //For Adaptive Design// */
-/* [start] Icon - element //For Adaptive Design// */
+/* [end] Contacts - element */
+/* [start] Icon - element */
 
 .Icon-s {
   width: 80px;
 }
 
-/* [end] Icon - element //For Adaptive Design// */
+/* [end] Icon - element */
+/* [start] Field - element */
+
+.Field {
+  margin-top: 10px;
+  height: 1000px;
+  border-top: 2px solid #d1a33d;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 20px;
+  font-family: ProximaNovaMedium;
+  color: white;
+  font-size: 16pt;
+}
+
+/* [end] Field - element */ 
