@@ -5,13 +5,23 @@ import Footer from './Footer.js';
 import Contacts from './Contacts.js';
 
 class Page extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      type: "mainType",
+      content: "Default"
+    }
+  }
+  getTypeContent = (type, content) => {
+    this.setState({type: type, content: content});
+  }
   render() {
     return (
       <Fragment>
         <Contacts />
         <div className="Page">
-      	  <Header />
-      	  <Field />
+      	  <Header getTypeContent={this.getTypeContent}/>
+      	  <Field type={this.state.type} content={this.state.content}/>
       	  <hr />
       	  <Footer />
         </div>

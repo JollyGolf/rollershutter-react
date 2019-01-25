@@ -1,5 +1,8 @@
 @import 'fonts/font.css';
 
+
+/* [start] General Attributes //For Adaptive Design// */
+
 html {  }
 
 body {
@@ -26,21 +29,21 @@ hr {
   margin: 0px;
 }
 
-/* [start] Menu Bar - element */
+/* [end] General Attributes //For Adaptive Design// */
+/* [start] Menu Bar - element //For Adaptive Design// */
+
 .menu-bar {
   padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #d1a33d;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
-.menu-bar__font {
-  
-}
+.menu-bar__font {  }
 
 .icon-and-title {
   display: flex;
@@ -106,8 +109,16 @@ hr {
   border-radius: 10px;
 }
 
-/* [end] Menu Bar - element */ 
-/* [start] Contacts - element */
+.category-true {
+  color: #d1a33d;
+}
+
+.categroy-false {
+  color: white;
+}
+
+/* [end] Menu Bar - element //For Adaptive Design// */ 
+/* [start] Contacts - element //For Adaptive Design// */
 
 .Contacts {
   display: flex;
@@ -132,11 +143,11 @@ hr {
 .icon-phone-blue { color: #00B2FF; }
 .icon-mail-green { color: #4CBB17; }
 
-/* [end] Contacts - element */
-/* [start] Icon - element */
+/* [end] Contacts - element //For Adaptive Design// */
+/* [start] Icon - element //For Adaptive Design// */
 
 .Icon-s {
   width: 80px;
 }
 
-/* [end] Icon - element */
+/* [end] Icon - element //For Adaptive Design// */

@@ -14,7 +14,7 @@ class Header extends Component {
               &nbsp;&nbsp;
             <Title />
           </div>
-          <MenuBar />
+          <MenuBar getTypeContent={this.props.getTypeContent}/>
         </div>
       </div>
     );
