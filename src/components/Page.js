@@ -22,8 +22,8 @@ class Page extends Component {
         <div className="Page">
       	  <Header getTypeContent={this.getTypeContent}/>
       	  <Field type={this.state.type} content={this.state.content}/>
-      	  <hr />
-      	  <Footer />
+      	  {/* <hr />
+      	  <Footer /> */}
         </div>
       </Fragment>
     );
