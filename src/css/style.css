@@ -95,6 +95,7 @@ hr {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   font-size: 15pt;
+  z-index: 100;
 }
 
 
@@ -135,6 +136,7 @@ hr {
   width: 100%;
   transition: 0.3s;
   margin-right: calc(-1 * (100vw - 100%));
+  z-index: 1000;
 }
 
 .imitate-Contacts {
@@ -179,10 +181,72 @@ hr {
   width: 100%;
 }
 
-.Photo {
+.photo-size-s {
+  width: 200px;
+  height: 112px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.photo-size-s:hover {
+  /*width: 215px;
+  height: 121px;*/
+  border-radius: 40px;
+}
+
+.photo-size-m {
   width: 400px;
   height: 225px;
   margin: 10px;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.photo-size-m:hover {
+  width: 420px;
+  height: 236px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+.photo-size-l {
+  position: absolute;
+  width: 1200px;/* 1000 x 562 */
+  height: 675px;
+  margin: 10px;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.photo-size-l:hover {
+  border-radius: 50px;
 }
 
 /* [end] Photo - element */
+/* [start] ExampleGallery - element */
+
+.ExampleField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ListPicture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FullPicture {
+  width: 1000px;
+  height: 562px;
+  position: fixed;
+  right: 300px;
+  bottom: 210px;
+}
+
+/* [end] ExampleGallery - element */

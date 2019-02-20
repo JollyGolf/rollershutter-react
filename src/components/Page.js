@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Header from './Header.js';
 import Field from './Field.js';
-import Footer from './Footer.js';
 import Contacts from './Contacts.js';
 
 class Page extends Component {
