@@ -187,13 +187,12 @@ hr {
   margin: 10px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 15px;
+  border-radius: 7px;
 }
 
 .photo-size-s:hover {
-  /*width: 215px;
-  height: 121px;*/
-  border-radius: 40px;
+  border-radius: 30px;
+  margin-right: -20px;
 }
 
 .photo-size-m {
