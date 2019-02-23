@@ -39,6 +39,8 @@ export default {
   photo_1, photo_2, photo_3, photo_4, photo_5, photo_6
 }
 
+export const generalPicture = [pl_8, pl_3, rs_9];
+
 export const initFullSizePicture = [rs_1]
 export const rollershutterArray = [rs_1, rs_2, rs_3, rs_4, rs_5, rs_6, rs_7, rs_8, rs_9]
 export const plisseArray = [pl_1, pl_2, pl_3, pl_4, pl_5, pl_6, pl_7, pl_8, pl_9]

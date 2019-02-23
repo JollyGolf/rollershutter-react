@@ -211,15 +211,22 @@ hr {
 }
 
 .photo-size-l {
+  width: 1200px;
+  height: 675px;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.photo-size-l-absolute {
   position: absolute;
-  width: 1200px;/* 1000 x 562 */
+  width: 1200px;
   height: 675px;
   margin: 10px;
   transition: 0.3s;
   border-radius: 15px;
 }
 
-.photo-size-l:hover {
+.photo-size-l-absolute:hover {
   border-radius: 50px;
 }
 
@@ -249,3 +256,74 @@ hr {
 }
 
 /* [end] ExampleGallery - element */
+/* [start] GeneralPage - element */
+
+.Text {
+  text-align: justify;
+  font-size: 18pt;
+  margin: 10px;
+}
+
+.Slider {
+  margin: 20px;
+  position: relative;
+  width: 1200px;
+  height: 675px;
+  transition: 0.3s;
+}
+
+.Slide {
+  position: absolute;
+  z-index: 10;
+}
+
+.Slide:hover {
+  
+}
+
+.mainField {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionsOfSlider {
+  position: absolute;
+  width: 1200px;
+  height: 675px;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.switchSlide {
+  font-size: 40pt;
+  cursor: pointer;
+  transition: 0.4s;
+  color: white;
+}
+.switchSlide:hover {
+  transform: rotate(360deg);
+  font-size: 50pt;
+  color: lightcyan;
+}
+.switchSlide-left {
+  margin-left: -25px;
+}
+
+.switchSlide-left:hover {
+  margin-left: -35px;
+}
+
+.switchSlide-right {
+  margin-right: -25px;
+}
+
+.switchSlide-right:hover {
+  margin-right: -35px;
+}
+
+/* [end] GeneralPage - element */

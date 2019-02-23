@@ -6,7 +6,7 @@ class FullPicture extends Component {
   render() {
     return (
       <div className="FullPicture">
-		<Photo content="full-size-picture" srcImage={ this.props.srcImg } size="l"/>
+		<Photo content="full-size-picture" srcImage={ this.props.srcImg } size="l-absolute"/>
       </div>
     )
   }
