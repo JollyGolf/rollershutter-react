@@ -42,8 +42,6 @@ hr {
   border-bottom-right-radius: 15px;
 }
 
-.menu-bar__font {  }
-
 .icon-and-title {
   display: flex;
   flex-direction: row;
@@ -98,7 +96,6 @@ hr {
   z-index: 100;
 }
 
-
 .item-of-catalog {
   padding: 5px;
   transition: 0.3s;
@@ -149,10 +146,17 @@ hr {
 .icon-mail-green { color: #4CBB17; }
 
 /* [end] Contacts - element */
-/* [start] Icon - element */
+/* [start] Icon and Category- element */
 
 .Icon-s {
   width: 80px;
+}
+
+.PlisseCategory, .RollerShutterCategory, .RhymesShutterCategory {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 /* [end] Icon - element */
@@ -167,6 +171,20 @@ hr {
   font-family: ProximaNovaMedium;
   color: white;
   font-size: 16pt;
+}
+
+.ExampleField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DescriptionField {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* [end] Field - element */ 
@@ -214,7 +232,15 @@ hr {
   width: 1200px;
   height: 675px;
   transition: 0.3s;
-  border-radius: 15px;
+  border-radius: 80px;
+  cursor: pointer;
+}
+.photo-size-l:hover {
+  width: 1200px;
+  height: 675px;
+  transition: 0.3s;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .photo-size-l-absolute {
@@ -232,13 +258,6 @@ hr {
 
 /* [end] Photo - element */
 /* [start] ExampleGallery - element */
-
-.ExampleField {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .ListPicture {
   display: flex;
@@ -264,6 +283,11 @@ hr {
   margin: 10px;
 }
 
+.Text-size-l {
+  font-size: 25pt;
+  margin: 20px;
+}
+
 .Slider {
   margin: 20px;
   position: relative;
@@ -275,10 +299,6 @@ hr {
 .Slide {
   position: absolute;
   z-index: 10;
-}
-
-.Slide:hover {
-  
 }
 
 .mainField {
@@ -310,6 +330,7 @@ hr {
   font-size: 50pt;
   color: lightcyan;
 }
+
 .switchSlide-left {
   margin-left: -25px;
 }

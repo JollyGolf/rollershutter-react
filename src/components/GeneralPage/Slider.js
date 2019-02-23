@@ -6,7 +6,7 @@ class Slider extends Component {
   constructor(props){
     super(props);
     this.state = {
-      itemOfSlide: 1
+      itemOfSlide: 2
     }
   }
   showPhoto(item){

@@ -7,8 +7,6 @@ class ExampleField extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      startPoint: 0,
-      endPoint: 5,
       srcPicture: initFullSizePicture[0]
     }
   }
@@ -18,8 +16,8 @@ class ExampleField extends Component {
   render() {
     return (
       <div className="Field ExampleField">
-      	<ListPicture getSourcePicture={this.getSourcePicture}/>
-      	<FullPicture srcImg={this.state.srcPicture}/>
+        <ListPicture getSourcePicture={this.getSourcePicture}/>
+        <FullPicture srcImg={this.state.srcPicture}/>
       </div>
     );
   }
