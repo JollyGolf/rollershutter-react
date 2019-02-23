@@ -144,6 +144,7 @@ hr {
 .icon-phone-red { color: red; }
 .icon-phone-blue { color: #00B2FF; }
 .icon-mail-green { color: #4CBB17; }
+.icon-viber-pink { color: #786fb5; }
 
 /* [end] Contacts - element */
 /* [start] Icon and Category- element */
@@ -348,3 +349,15 @@ hr {
 }
 
 /* [end] GeneralPage - element */
+/* [start] Description of Contacts - element */
+
+.item-of-desctiption-contacts {
+  font-size: 25pt;
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 2px solid #d1a33d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* [end] Description of Contacts - element */
