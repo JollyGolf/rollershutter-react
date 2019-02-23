@@ -28,6 +28,19 @@ hr {
   margin: 0px;
 }
 
+.a-non-decoration {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.a-style-contact {
+  color: grey;
+}
+.a-style-contact:hover {
+  color: white;
+}
+
 /* [end] General Attributes */
 /* [start] Menu Bar - element */
 
@@ -145,6 +158,7 @@ hr {
 .icon-phone-blue { color: #00B2FF; }
 .icon-mail-green { color: #4CBB17; }
 .icon-viber-pink { color: #786fb5; }
+.icon-telegram-blue { color: #32aee2; }
 
 /* [end] Contacts - element */
 /* [start] Icon and Category- element */
