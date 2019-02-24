@@ -5,14 +5,14 @@ class Text extends Component {
   	if(this.props.type === "title") {
   	  return (
         <div className="Text Text-size-l">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{this.props.text}
+          &nbsp;&nbsp;&nbsp;{this.props.text}
         </div>
       );
   	}
   	else {
   	  return (
         <div className="Text">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{this.props.text}
+          &nbsp;&nbsp;&nbsp;{this.props.text}
         </div>
       );
   	}

@@ -1,8 +1,5 @@
 @import 'fonts/font.css';
 
-
-/* [start] General Attributes */
-
 html { 
   overflow-x: hidden;
   margin-right: calc(-1 * (100vw - 100%));
@@ -14,18 +11,9 @@ body {
   font-family: SourceSansPro-Regular;
 }
 
-.Information {
-  font-family: ProximaNovaMedium;
-  height: 40px;
-}
-
 .Page {
   width: 70%;
   margin: 0 auto;
-}
-
-hr {
-  margin: 0px;
 }
 
 .a-non-decoration {
@@ -34,15 +22,8 @@ hr {
   transition: 0.3s;
 }
 
-.a-style-contact {
-  color: grey;
-}
-.a-style-contact:hover {
-  color: white;
-}
-
-/* [end] General Attributes */
-/* [start] Menu Bar - element */
+.a-style-contact { color: grey; }
+.a-style-contact:hover { color: white; }
 
 .menu-bar {
   padding: 20px;
@@ -75,9 +56,7 @@ hr {
   align-items: center;
 }
 
-.list-of-items__font {
-  font-family: ProximaNovaMedium;
-}
+.list-of-items__font { font-family: ProximaNovaMedium; }
 
 .item-of-list {
   font-size: 17pt;
@@ -121,16 +100,9 @@ hr {
   border-radius: 10px;
 }
 
-.category-true {
-  color: #d1a33d;
-}
+.category-true { color: #d1a33d; }
 
-.categroy-false {
-  color: white;
-}
-
-/* [end] Menu Bar - element */ 
-/* [start] Contacts - element */
+.categroy-false { color: white; }
 
 .Contacts {
   display: flex;
@@ -149,23 +121,21 @@ hr {
   z-index: 1000;
 }
 
-.imitate-Contacts {
-  height: 40px;
-}
+.imitate-Contacts { height: 40px; }
 
 .icon-mark-red { color: red; }
+
 .icon-phone-red { color: red; }
+
 .icon-phone-blue { color: #00B2FF; }
+
 .icon-mail-green { color: #4CBB17; }
+
 .icon-viber-pink { color: #786fb5; }
+
 .icon-telegram-blue { color: #32aee2; }
 
-/* [end] Contacts - element */
-/* [start] Icon and Category- element */
-
-.Icon-s {
-  width: 80px;
-}
+.Icon-s { width: 80px; }
 
 .PlisseCategory, .RollerShutterCategory, .RhymesShutterCategory {
   display: flex;
@@ -174,15 +144,12 @@ hr {
   flex-direction: column;
 }
 
-/* [end] Icon - element */
-/* [start] Field - element */
-
 .Field {
   margin-top: 10px;
   border-top: 2px solid #d1a33d;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   font-family: ProximaNovaMedium;
   color: white;
   font-size: 16pt;
@@ -199,11 +166,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
 }
-
-/* [end] Field - element */ 
-/* [start] Photo/Gallery - element */
 
 .Gallery {
   display: flex;
@@ -239,7 +202,6 @@ hr {
 .photo-size-m:hover {
   width: 420px;
   height: 236px;
-  margin: 10px;
   border: 2px solid white;
 }
 
@@ -250,10 +212,8 @@ hr {
   border-radius: 80px;
   cursor: pointer;
 }
+
 .photo-size-l:hover {
-  width: 1200px;
-  height: 675px;
-  transition: 0.3s;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -267,12 +227,7 @@ hr {
   border-radius: 15px;
 }
 
-.photo-size-l-absolute:hover {
-  border-radius: 50px;
-}
-
-/* [end] Photo - element */
-/* [start] ExampleGallery - element */
+.photo-size-l-absolute:hover { border-radius: 50px; }
 
 .ListPicture {
   display: flex;
@@ -288,9 +243,6 @@ hr {
   right: 300px;
   bottom: 210px;
 }
-
-/* [end] ExampleGallery - element */
-/* [start] GeneralPage - element */
 
 .Text {
   text-align: justify;
@@ -346,24 +298,13 @@ hr {
   color: lightcyan;
 }
 
-.switchSlide-left {
-  margin-left: -25px;
-}
+.switchSlide-left { margin-left: -25px; }
 
-.switchSlide-left:hover {
-  margin-left: -35px;
-}
+.switchSlide-left:hover { margin-left: -35px; }
 
-.switchSlide-right {
-  margin-right: -25px;
-}
+.switchSlide-right { margin-right: -25px; }
 
-.switchSlide-right:hover {
-  margin-right: -35px;
-}
-
-/* [end] GeneralPage - element */
-/* [start] Description of Contacts - element */
+.switchSlide-right:hover { margin-right: -35px; }
 
 .item-of-desctiption-contacts {
   font-size: 25pt;
@@ -373,5 +314,3 @@ hr {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-
-/* [end] Description of Contacts - element */

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Page from './components/Page';
 import './css/style.css';
+import './css/media-style.css';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
