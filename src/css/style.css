@@ -22,9 +22,6 @@ body {
   transition: 0.3s;
 }
 
-.a-style-contact { color: grey; }
-.a-style-contact:hover { color: white; }
-
 .menu-bar {
   padding: 20px;
   display: flex;
@@ -188,7 +185,7 @@ body {
 
 .photo-size-s:hover {
   border-radius: 30px;
-  margin-right: -20px;
+  margin-right: -40px;
 }
 
 .photo-size-m {
@@ -290,12 +287,12 @@ body {
   font-size: 40pt;
   cursor: pointer;
   transition: 0.4s;
-  color: white;
+  color: #f9c54f;
 }
 .switchSlide:hover {
   transform: rotate(360deg);
   font-size: 50pt;
-  color: lightcyan;
+  color: #ff7d3d;
 }
 
 .switchSlide-left { margin-left: -25px; }
@@ -313,4 +310,12 @@ body {
   border-bottom: 2px solid #d1a33d;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.item-of-desctiption-contacts:hover {
+  margin-left: 50px;
+  color: #ff7d3d;
+  border-color: white;
 }

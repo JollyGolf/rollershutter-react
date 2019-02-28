@@ -1,36 +1,41 @@
 import React, { Component } from 'react';
+import Text from './../GeneralPage/Text.js';
 
 class DescriptionField extends Component {
   render() {
     return (
       <div className="Field DescriptionField">
-      	<div className="item-of-desctiption-contacts">
-      	  <div>
+        <Text text="Кликните для перехода по ссылкам!" type="title" />
+        <a href="https://www.google.com/maps/dir//50.9047503,34.7947555/@50.9047541,34.7945999,20z" className="a-non-decoration">
+      	  <div className="item-of-desctiption-contacts">
       	    Местоположение офиса - Сумы&nbsp;<i className="fas fa-map-marker-alt icon-mark-red"></i>&nbsp;ул. Петропавловская 61, оф. 5
-      	    <a href="https://www.google.com/maps/dir//50.9047503,34.7947555/@50.9047541,34.7945999,20z" className="a-non-decoration a-style-contact">&nbsp;&nbsp;<address>[нажмите чтобы перейти]</address></a>
       	  </div>
-      	</div>
-      	<div className="item-of-desctiption-contacts">
-      	  <div>Vodafone <i className="fas fa-phone icon-phone-red"></i> +38 (066) 5984267</div>
-      	</div>
-      	<div className="item-of-desctiption-contacts">
-      	  <div>Kyivstar <i className="fas fa-phone icon-phone-blue"></i> +38 (098) 0555529</div>
-      	</div>
-      	<div className="item-of-desctiption-contacts">
-      	  <div>
+        </a>
+        <a href="tel:+380665984267" className="a-non-decoration">
+          <div className="item-of-desctiption-contacts">
+            <div>Vodafone <i className="fas fa-phone icon-phone-red"></i> +38 (066) 5984267</div>
+          </div>
+        </a>
+      	<a href="tel:+380980555529" className="a-non-decoration">
+          <div className="item-of-desctiption-contacts">
+            <div>Kyivstar <i className="fas fa-phone icon-phone-blue"></i> +38 (098) 0555529</div>
+          </div>
+        </a>
+      	<a href="mailto:gigamov@ukr.net" className="a-non-decoration">
+      	  <div className="item-of-desctiption-contacts">
       	    Моя почта&nbsp; <i className="fas fa-envelope-open icon-mail-green"></i>&nbsp;gigamov@ukr.net 
-      	    <a href="mailto:gigamov@ukr.net" className="a-non-decoration a-style-contact">&nbsp;&nbsp;<address>[нажмите чтобы перейти]</address></a>
       	  </div>
-      	</div>
-      	<div className="item-of-desctiption-contacts">
-      	  <div>Viber&nbsp;<i className="fab fa-viber icon-viber-pink"></i> +38 (066) 5984267</div>
-      	</div>
-      	<div className="item-of-desctiption-contacts">
-      	  <div>
-      	    Telegram&nbsp;<i className="fab fa-telegram icon-telegram-blue"></i>&nbsp;+38 (066) 5984267
-      	    <a href="https://t.me/anatoly_zhigamovsky" className="a-non-decoration a-style-contact">&nbsp;&nbsp;<address>[нажмите чтобы перейти]</address></a>
+        </a>
+        <a href="tel:+380665984267" className="a-non-decoration">
+      	  <div className="item-of-desctiption-contacts">
+      	    <div>Viber&nbsp;<i className="fab fa-viber icon-viber-pink"></i> +38 (066) 5984267</div>
       	  </div>
-      	</div>
+        </a>
+        <a href="https://t.me/anatoly_zhigamovsky" className="a-non-decoration">
+      	  <div className="item-of-desctiption-contacts">
+      	      Telegram&nbsp;<i className="fab fa-telegram icon-telegram-blue"></i>&nbsp;+38 (066) 5984267
+      	  </div>
+        </a>
       </div>
     );
   }
