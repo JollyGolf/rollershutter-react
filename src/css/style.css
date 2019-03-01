@@ -21,6 +21,11 @@ body {
   color: white;
   transition: 0.3s;
 }
+.a-non-decoration-alternative {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
 
 .menu-bar {
   padding: 20px;
@@ -231,6 +236,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .FullPicture {
@@ -318,4 +324,8 @@ body {
   margin-left: 50px;
   color: #ff7d3d;
   border-color: white;
+}
+
+.number-of-picture {
+  position: absolute;
 }

@@ -81,7 +81,7 @@ export default {
 
 export const generalPicture = [e0, e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25, e26, e27, e28, e29, e30, e31, e32, e33, e34, e35, e36, e37, e38]
 
-export const initFullSizePicture = [rs_1]
+export const initFullSizePicture = [e0]
 export const rollershutterArray = [rs_1, rs_2, rs_3, rs_4, rs_5, rs_6, rs_7, rs_8, rs_9]
 export const plisseArray = [pl_1, pl_2, pl_3, pl_4, pl_5, pl_6, pl_7, pl_8, pl_9]
 export const rhymeshutterArray = [rhs_1, rhs_2, rhs_3, rhs_4, rhs_5, rhs_6, rhs_7, rhs_8, rhs_9]

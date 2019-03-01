@@ -12,8 +12,8 @@ class ListPicture extends Component {
   }
   showPhoto(){
   	return examplesOfWorkArray.slice(this.state.startPoint, this.state.endPoint).map((item, index) => { 
-	  return (
-        <ItemPicture key={index} text={item} getSourcePicture={this.props.getSourcePicture}/>
+	    return (
+        <ItemPicture key={index} text={item} getSourcePicture={this.props.getSourcePicture} index={index}/>
       );
   	});
   }
