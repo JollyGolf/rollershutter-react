@@ -13,27 +13,27 @@ class DescriptionField extends Component {
         </a>
         <a href="tel:+380665984267" className="a-non-decoration">
           <div className="item-of-desctiption-contacts">
-            <div>Vodafone <i className="fas fa-phone icon-phone-red"></i> +38 (066) 5984267</div>
+            <div>Vodafone <i className="fas fa-phone icon-phone-red" /> +38 (066) 5984267</div>
           </div>
         </a>
       	<a href="tel:+380980555529" className="a-non-decoration">
           <div className="item-of-desctiption-contacts">
-            <div>Kyivstar <i className="fas fa-phone icon-phone-blue"></i> +38 (098) 0555529</div>
+            <div>Kyivstar <i className="fas fa-phone icon-phone-blue" /> +38 (098) 0555529</div>
           </div>
         </a>
       	<a href="mailto:gigamov@ukr.net" className="a-non-decoration">
       	  <div className="item-of-desctiption-contacts">
-      	    Моя почта&nbsp; <i className="fas fa-envelope-open icon-mail-green"></i>&nbsp;gigamov@ukr.net 
+      	    Моя почта&nbsp;<i className="fas fa-envelope-open icon-mail-green" />&nbsp;gigamov@ukr.net
       	  </div>
         </a>
         <a href="tel:+380665984267" className="a-non-decoration">
       	  <div className="item-of-desctiption-contacts">
-      	    <div>Viber&nbsp;<i className="fab fa-viber icon-viber-pink"></i> +38 (066) 5984267</div>
+      	    <div>Viber&nbsp;<i className="fab fa-viber icon-viber-pink" /> +38 (066) 5984267</div>
       	  </div>
         </a>
         <a href="https://t.me/anatoly_zhigamovsky" className="a-non-decoration">
       	  <div className="item-of-desctiption-contacts">
-      	      Telegram&nbsp;<i className="fab fa-telegram icon-telegram-blue"></i>&nbsp;+38 (066) 5984267
+      	      Telegram&nbsp;<i className="fab fa-telegram icon-telegram-blue" />&nbsp;+38 (066) 5984267
       	  </div>
         </a>
       </div>
