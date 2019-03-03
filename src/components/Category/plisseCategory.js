@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Gallery from './../Gallery/Gallery.js';
 import Text from './../GeneralPage/Text.js';
 
 const title = "Показаны фотографии категории Плиссе";
 const description = "Шторы плиссе – это самая новая, определенно оригинальная и, конечно, престижная альтернатива привычным традиционным горизонтальным жалюзи или различным типам рулонных штор. Жалюзи плиссе на окна состоят из ткани, которая при сложении изделия собирается «гармошкой» между двумя карнизами - верхним и нижним. Карнизы могут иметь самые разные варианты движения и механизмы, благодаря чему, с применением жалюзи плиссе стало возможно красиво закрыть оконные проемы сложной формы, к которым относятся круглые, в форме трапеции, треугольные и арочные окна. Такое замечательно изделие, как жалюзи плиссе на пластиковые окна наверняка оценят обладатели роскошных зимних садов и, конечно, мансардных окон потому, что шторы плиссе это единственные жалюзи, которые легко можно установить не только под углом более 15 градусов, но так же и на мансардные и даже на потолочные окна.";
 
-class PlisseCategory extends Component {
-  render() {
-    return (
-      <div className="PlisseCategory">
-      	<Text text={title} type="title"/>
-      	<Gallery content={this.props.content} />
-      	<br />
-      	<Text text={description} type="description"/>
-      </div>
-    );
-  }
-}
+const PlisseCategory = ({content}) => (
+  <div className="PlisseCategory">
+    <Text text={title} type="title"/>
+    <Gallery content={content} />
+    <br />
+    <Text text={description} type="description"/>
+  </div>
+)
 
 export default PlisseCategory;

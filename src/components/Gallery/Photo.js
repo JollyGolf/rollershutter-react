@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Photo extends Component {
-  render() {
-    return (
-      <img 
-        className={`photo-size-${this.props.size}`}
-        src={this.props.srcImage} 
-        alt="pictureOfGallery" 
-        content={this.props.content} 
-      />
-    );
-  }
-}
+const Photo = ({size, srcImage, content}) => (
+  <img 
+    className={`photo-size-${size}`}
+    src={srcImage} 
+    alt="pictureOfGallery" 
+    content={content} 
+  />
+)
 
 export default Photo;

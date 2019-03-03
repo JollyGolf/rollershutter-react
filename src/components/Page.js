@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Header from './Header.js';
 import Field from './Field.js';
 import Contacts from './Contacts.js';
+import Footer from './Footer.js';
 
 class Page extends Component {
   constructor(props){
@@ -21,8 +22,7 @@ class Page extends Component {
         <div className="Page">
       	  <Header getTypeContent={this.getTypeContent}/>
       	  <Field type={this.state.type} content={this.state.content}/>
-      	  {/* <hr />
-      	  <Footer /> */}
+          <Footer />
         </div>
       </Fragment>
     );

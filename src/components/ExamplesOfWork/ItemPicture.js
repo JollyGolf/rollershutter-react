@@ -1,19 +1,10 @@
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import Photo from './../Gallery/Photo.js';
 
-class ItemPicture extends Component {
-
-  render() {
-    return (
-      <Fragment>
-        {/*<div className="number-of-picture">{this.props.index}</div>*/}
-      	<div className="ItemPicture" onClick={() => {this.props.getSourcePicture(this.props.text)}}>
-          <Photo content="item-picture" srcImage={ this.props.text } size="s"/>
-        </div>
-      </Fragment>
-      
-    )
-  }
-}
+const ItemPicture = ({text, getSourcePicture}) => (
+  <div className="ItemPicture" onClick={() => {getSourcePicture(text)}}>
+    <Photo content="item-picture" srcImage={text} size="s"/>
+  </div>
+)
 
 export default ItemPicture;

@@ -1,22 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Text extends Component {
-  render() {
-  	if(this.props.type === "title") {
-  	  return (
-        <div className="Text Text-size-l">
-          &nbsp;&nbsp;&nbsp;{this.props.text}
-        </div>
-      );
-  	}
-  	else {
-  	  return (
-        <div className="Text">
-          &nbsp;&nbsp;&nbsp;{this.props.text}
-        </div>
-      );
-  	}
-    
+const Text = ({text, type}) => {
+  if(type === "title") {
+    return (
+      <div className="Text Text-size-l">&nbsp;&nbsp;&nbsp;{text}</div>
+    );
+  }
+  else {
+    return (
+      <div className="Text">&nbsp;&nbsp;&nbsp;{text}</div>
+    );
   }
 }
 

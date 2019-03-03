@@ -1,39 +1,36 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Photo from './Photo.js';
 import {rollershutterArray, plisseArray, rhymeshutterArray} from './../../image/image.js';
 
-class Gallery extends Component {
-  showPhoto(type){
-  	return type.map((photo, index) => {
+const Gallery = ({content}) => {
+  function showPhoto(type){
+    return type.map((photo, index) => {
       return (
-        <Photo content={this.props.content} key={ index } srcImage={ photo } size="m"/>
+        <Photo content={content} key={ index } srcImage={ photo } size="m"/>
       );
     })
   }
-  render() {
-  	if(this.props.content === "rollershutter") {
-  	  return (
+  if(content === "rollershutter") {
+      return (
         <div className="Gallery">
-      	  { this.showPhoto(rollershutterArray) }
+          { showPhoto(rollershutterArray) }
         </div>
       );
-  	}
-  	if(this.props.content === "plisse") {
-  	  return (
+    }
+    if(content === "plisse") {
+      return (
         <div className="Gallery">
-      	  { this.showPhoto(plisseArray) }
+          { showPhoto(plisseArray) }
         </div>
       );
-  	}
-  	if(this.props.content === "rhymesshutter") {
-  	  return (
+    }
+    if(content === "rhymesshutter") {
+      return (
         <div className="Gallery">
-      	  { this.showPhoto(rhymeshutterArray) }
+          { showPhoto(rhymeshutterArray) }
         </div>
       );
-  	}
-    
-  }
+    }
 }
 
 export default Gallery;

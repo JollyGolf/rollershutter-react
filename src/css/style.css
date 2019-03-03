@@ -329,3 +329,9 @@ body {
 .number-of-picture {
   position: absolute;
 }
+
+@supports (-ms-ime-align: auto) {
+    .icon-and-title, .Contacts, .PlisseCategory, .RollerShutterCategory, .RhymesShutterCategory, .Gallery {
+    justify-content: space-around;
+  }
+}
