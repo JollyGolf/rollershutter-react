@@ -358,8 +358,6 @@ body {
   border-color: white;
 }
 
-
-
 @supports (-ms-ime-align: auto) {
     .icon-and-title, .Contacts, .PlisseCategory, .RollerShutterCategory, .RhymesShutterCategory, .Gallery {
     justify-content: space-around;
