@@ -24,14 +24,19 @@ const DescriptionField = () => (
         Моя почта&nbsp;<i className="fas fa-envelope-open icon-mail-green" />&nbsp;gigamov@ukr.net
       </div>
     </a>
+    <a href="https://t.me/anatoly_zhigamovsky" className="a-non-decoration">
+      <div className="item-of-desctiption-contacts">
+        Telegram&nbsp;<i className="fab fa-telegram icon-telegram-blue" />&nbsp;+38 (066) 5984267
+      </div>
+    </a>
     <a href="tel:+380665984267" className="a-non-decoration">
       <div className="item-of-desctiption-contacts">
         <div>Viber&nbsp;<i className="fab fa-viber icon-viber-pink" /> +38 (066) 5984267</div>
       </div>
     </a>
-    <a href="https://t.me/anatoly_zhigamovsky" className="a-non-decoration">
+    <a href="https://t.me/zhigamovsky" className="a-non-decoration">
       <div className="item-of-desctiption-contacts">
-        Telegram&nbsp;<i className="fab fa-telegram icon-telegram-blue" />&nbsp;+38 (066) 5984267
+        App Developer&nbsp;<i className="fab fa-telegram icon-telegram-blue" />&nbsp;Nikita Zhigamovsky
       </div>
     </a>
   </div>

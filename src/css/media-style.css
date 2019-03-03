@@ -250,6 +250,10 @@
   }
   .switchSlide { font-size: 30pt; }
   .switchSlide:hover { font-size: 40pt; }
+
+  .Footer {
+    font-size: 10pt;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -323,6 +327,10 @@
   }
   .switchSlide { font-size: 20pt; }
   .switchSlide:hover { font-size: 30pt; }
+
+  .Footer {
+    font-size: 7pt;
+  }
 }
 
 @media screen and (max-width: 375px) {

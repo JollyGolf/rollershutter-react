@@ -76,7 +76,7 @@ body {
 .items-of-catalog {
   margin-left: -50px;
   position: absolute;
-  background-color: #162113;
+  background-color: #111b1d;
   padding: 5px;
   transition: 0.3s;
   border-left: 2px solid #d1a33d;
@@ -329,6 +329,36 @@ body {
 .number-of-picture {
   position: absolute;
 }
+
+.Footer {
+  border-top: 2px solid #d1a33d;
+  border-bottom: 2px solid #d1a33d;
+  width: 100%;
+  background-color: #042a3a;
+  position: absolute;
+  left: 0;
+  color: white;
+  font-size: 14pt;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.icon-footer {
+  font-weight: normal;
+  color: #32aee2;
+}
+
+.Footer:hover {
+  background-color: #441016;
+  color: white;
+  border-color: white;
+}
+
+
 
 @supports (-ms-ime-align: auto) {
     .icon-and-title, .Contacts, .PlisseCategory, .RollerShutterCategory, .RhymesShutterCategory, .Gallery {
