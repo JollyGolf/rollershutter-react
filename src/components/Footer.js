@@ -4,7 +4,7 @@ const Footer = () => (
   <a href="https://t.me/zhigamovsky" className="a-non-decoration a-footer">
     <div className="Footer">
   	    <div>
-  	      App Developed by&nbsp;&nbsp;
+  	      Developed by&nbsp;&nbsp;
   	      <i className="fab fa-telegram icon-footer"/>
   	      &nbsp;&nbsp;Nikita Zhigamovsky
   	    </div>

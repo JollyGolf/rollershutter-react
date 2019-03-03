@@ -3,7 +3,7 @@ import Text from './../GeneralPage/Text.js';
 
 const DescriptionField = () => (
   <div className="Field DescriptionField">
-    <Text text="Кликните для перехода по ссылкам!" type="title" />
+    <Text text="Меня зовут Анатолий. Кликните для перехода по ссылкам!" type="title" />
     <a href="https://www.google.com/maps/dir//50.9047503,34.7947555/@50.9047541,34.7945999,20z" className="a-non-decoration">
       <div className="item-of-desctiption-contacts">
         Местоположение офиса - Сумы&nbsp;<i className="fas fa-map-marker-alt icon-mark-red"></i>&nbsp;ул. Петропавловская 61, оф. 5
