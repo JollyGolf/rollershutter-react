@@ -5,8 +5,7 @@ const Footer = () => (
     <div className="Footer">
   	  <div>
   	    Developed by&nbsp;&nbsp;
-  	    <i className="fab fa-telegram icon-footer"/>
-  	    &nbsp;&nbsp;Nikita Zhigamovsky
+  	    <i className="fas fa-link icon-footer" />
   	  </div>
     </div> 
   </a>
