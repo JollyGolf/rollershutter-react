@@ -35,6 +35,26 @@ import rhs_7 from './rhymeshutterType/rhs_7.jpg';
 import rhs_8 from './rhymeshutterType/rhs_8.jpg';
 import rhs_9 from './rhymeshutterType/rhs_9.jpg';
 
+import j1 from './jalousieType/j1.jpg';
+import j2 from './jalousieType/j2.jpg';
+import j3 from './jalousieType/j3.jpg';
+import j4 from './jalousieType/j4.jpg';
+import j5 from './jalousieType/j5.jpg';
+import j6 from './jalousieType/j6.jpg';
+import j7 from './jalousieType/j7.jpg';
+import j8 from './jalousieType/j8.jpg';
+import j9 from './jalousieType/j9.jpg';
+
+import msq1 from './msqtnetType/msq1.jpg';
+import msq2 from './msqtnetType/msq2.jpg';
+import msq3 from './msqtnetType/msq3.jpg';
+import msq4 from './msqtnetType/msq4.jpg';
+import msq5 from './msqtnetType/msq5.jpg';
+import msq6 from './msqtnetType/msq6.jpg';
+import msq7 from './msqtnetType/msq7.jpg';
+import msq8 from './msqtnetType/msq8.jpg';
+import msq9 from './msqtnetType/msq9.jpg';
+
 import e0 from './example_photo/e0.jpg';
 import e1 from './example_photo/e1.jpg';
 import e2 from './example_photo/e2.jpg';
@@ -82,6 +102,8 @@ export default {
 export const generalPicture = [e0, e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25, e26, e27, e28, e29, e30, e31, e32, e33, e34, e35, e36, e37, e38]
 
 export const initFullSizePicture = [e0]
+export const jalousieArray = [j1, j2, j3, j4, j5, j6, j7, j8, j9]
+export const msqtnetArray = [msq1, msq2, msq3, msq4, msq5, msq6, msq7, msq8, msq9]
 export const rollershutterArray = [rs_1, rs_2, rs_3, rs_4, rs_5, rs_6, rs_7, rs_8, rs_9]
 export const plisseArray = [pl_1, pl_2, pl_3, pl_4, pl_5, pl_6, pl_7, pl_8, pl_9]
 export const rhymeshutterArray = [rhs_1, rhs_2, rhs_3, rhs_4, rhs_5, rhs_6, rhs_7, rhs_8, rhs_9]

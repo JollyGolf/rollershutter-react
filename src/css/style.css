@@ -11,6 +11,18 @@ body {
   font-family: SourceSansPro-Regular;
 }
 
+hr {
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+  border: 1px solid #d1a33d;
+  border-radius: 50%;
+  color: #d1a33d; 
+  background-color: #d1a33d; 
+  height: 2px;
+}
+
 .Page {
   width: 70%;
   margin: 0 auto;
@@ -21,6 +33,7 @@ body {
   color: white;
   transition: 0.3s;
 }
+
 .a-non-decoration-alternative {
   text-decoration: none;
   color: black;
@@ -93,6 +106,19 @@ body {
 .item-of-catalog {
   padding: 5px;
   transition: 0.3s;
+ /* margin: 5px 0 5px 0;
+   border-bottom: 2px solid #d1a33d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; 
+
+  border-left: 2px solid #d1a33d;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+
+  border-right: 2px solid #d1a33d;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  */
 }
 
 .item-of-catalog:hover {
@@ -100,6 +126,7 @@ body {
   font-size: 17pt;
   color: #162113;
   border-radius: 10px;
+  border-color: red;
 }
 
 .category-true { color: #d1a33d; }
@@ -295,6 +322,7 @@ body {
   transition: 0.4s;
   color: #f9c54f;
 }
+
 .switchSlide:hover {
   transform: rotate(360deg);
   font-size: 50pt;
