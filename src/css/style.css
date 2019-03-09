@@ -109,11 +109,13 @@ hr {
 }
 
 .item-of-catalog:hover {
-  background-color: white;
+  /* background-color: white;
   font-size: 16pt;
   color: #162113;
   border-radius: 10px;
-  border-color: red;
+  border-color: red; */
+  padding: 10px;
+  color: #d1a33d;
 }
 
 .category-true { color: #d1a33d; }
@@ -325,7 +327,7 @@ hr {
 .switchSlide-right:hover { margin-right: -35px; }
 
 .item-of-desctiption-contacts {
-  font-size: 25pt;
+  font-size: 20pt;
   margin: 20px;
   padding: 10px;
   border-bottom: 2px solid #d1a33d;

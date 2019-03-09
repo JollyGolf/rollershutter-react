@@ -29,7 +29,7 @@ class MenuBar extends Component {
           <i className="fas fa-circle item-of-list item-icon"></i>
         <div className="item-of-list" onClick={() => {this.props.getTypeContent("exampleType", "Examples")}}>Наши работы</div>
           <i className="fas fa-circle item-of-list item-icon"></i>
-        <div className="item-of-list" onClick={() => {this.props.getTypeContent("descriptionType", "Description")}}>Про нас</div>
+        <div className="item-of-list" onClick={() => {this.props.getTypeContent("descriptionType", "Description")}}>Контакты</div>
       </div>
     );
   }
