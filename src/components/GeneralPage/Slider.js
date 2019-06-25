@@ -32,8 +32,8 @@ class Slider extends Component {
       <div className="Slider">
     	{this.showPhoto(this.state.itemOfSlide)}
         <div className="optionsOfSlider">
-          <i onClick={this.toggleToDown.bind(this)} className="fas fa-arrow-alt-circle-left switchSlide switchSlide-left"></i>
-          <i onClick={this.toggleToUp.bind(this)} className="fas fa-arrow-alt-circle-right switchSlide switchSlide-right"></i>
+          <i onClick={this.toggleToDown.bind(this)} className="fas fa-arrow-alt-circle-left switchSlide switchSlide-left" />
+          <i onClick={this.toggleToUp.bind(this)} className="fas fa-arrow-alt-circle-right switchSlide switchSlide-right" />
         </div>
       </div>
     );
